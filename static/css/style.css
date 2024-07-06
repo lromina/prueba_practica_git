@@ -1,0 +1,60 @@
+*{
+    background-color: aqua;
+
+}
+
+
+h1{
+    color: red;
+    font-size: 1.5em;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    
+}
+
+
+h1::before{
+    content: "3er año - ";
+}
+
+.parrafo{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+}
+
+#nuevo_color{
+    background-color: #41a978;    
+}
+
+#negro{
+    color: black;
+}
+
+.view{
+    width: 800px;
+    height: 400px;
+    background-color: yellow;
+}
+
+
+.navegador{
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+    background-color: #41a978;
+}
+
+ul{
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+    gap: 15vw
+}
+
+a{
+    text-decoration: none;
+}
